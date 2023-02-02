@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UptimeKumaHeartbeat", "UptimeKumaHeartbeat\UptimeKumaHeartbeat.csproj", "{8DFAB6A7-FEEC-4075-B00C-8C43DA707FD1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UptimeKumaHeartbeatTests", "UptimeKumaHeartbeatTests\UptimeKumaHeartbeatTests.csproj", "{9D7FBC94-E8CB-47C6-BE3F-4CC26C748782}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{8DFAB6A7-FEEC-4075-B00C-8C43DA707FD1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8DFAB6A7-FEEC-4075-B00C-8C43DA707FD1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8DFAB6A7-FEEC-4075-B00C-8C43DA707FD1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8DFAB6A7-FEEC-4075-B00C-8C43DA707FD1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9D7FBC94-E8CB-47C6-BE3F-4CC26C748782}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9D7FBC94-E8CB-47C6-BE3F-4CC26C748782}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9D7FBC94-E8CB-47C6-BE3F-4CC26C748782}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9D7FBC94-E8CB-47C6-BE3F-4CC26C748782}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {7AF2A03F-42DE-4C93-A12B-DACD3C109B63}
+	EndGlobalSection
+EndGlobal
