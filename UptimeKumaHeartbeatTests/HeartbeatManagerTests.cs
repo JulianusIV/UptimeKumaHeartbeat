@@ -8,7 +8,7 @@ namespace UptimeKumaHeartbeat.Tests
         [TestMethod]
         public void SendSingleHeartBeatAsyncTest()
         {
-            HeartbeatManager.SendSingleHeartBeatAsync("https://status.julianusiv.de/api/push/uCf8Z9Oc02", new("", "")).GetAwaiter().GetResult();
+            HeartbeatManager.SendSingleHeartBeatAsync("Insert your url to test on here", new("", "")).GetAwaiter().GetResult();
         }
 
         [TestMethod]
@@ -18,7 +18,7 @@ namespace UptimeKumaHeartbeat.Tests
 
             using HeartbeatManager heartbeatManager = new();
             HeartbeatData data = new("", "");
-            var task = heartbeatManager.StartHeartbeatsAsync("https://status.julianusiv.de/api/push/uCf8Z9Oc02", data, cancellationTokenSource.Token);
+            var task = heartbeatManager.StartHeartbeatsAsync("insert your url to test on here", data, cancellationTokenSource.Token);
 
             cancellationTokenSource.CancelAfter(TimeSpan.FromMinutes(3));
             data.Message = "test";
