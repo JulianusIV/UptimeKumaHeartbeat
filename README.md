@@ -2,6 +2,7 @@
 
 [![CodeQL](https://github.com/JulianusIV/UptimeKumaHeartbeat/actions/workflows/codeql.yml/badge.svg?branch=master)](https://github.com/JulianusIV/UptimeKumaHeartbeat/actions/workflows/codeql.yml)
 [![NuGet](https://img.shields.io/nuget/v/UptimeKumaHeartbeat.svg?label=NuGet)](https://nuget.org/packages/UptimeKumaHeartbeat)
+[![CodeFactor](https://www.codefactor.io/repository/github/julianusiv/uptimekumaheartbeat/badge)](https://www.codefactor.io/repository/github/julianusiv/uptimekumaheartbeat)
 
 ## Why does this exist?
 
