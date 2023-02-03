@@ -4,6 +4,22 @@
     <TargetFramework>net6.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
+    <GeneratePackageOnBuild>True</GeneratePackageOnBuild>
+    <Title>UptimeKuma Heartbeats</Title>
+    <Description>Package to send heartbeats for UptimeKuma's "push" option</Description>
+    <Copyright>JulianusIV 2023</Copyright>
+    <PackageProjectUrl>https://github.com/JulianusIV/UptimeKumaHeartbeat</PackageProjectUrl>
+    <RepositoryUrl>https://github.com/JulianusIV/UptimeKumaHeartbeat</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageLicenseFile>LICENSE.txt</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\LICENSE.txt">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
