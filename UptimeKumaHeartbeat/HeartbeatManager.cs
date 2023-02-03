@@ -36,7 +36,7 @@
         /// <param name="interval">Time between Heartbeats in milliseconds</param>
         /// <returns></returns>
         [Obsolete("This Overload is obsolete, use an overload accepting a TimeSpan instead.")]
-        public Task StartHeartbeatsAsync(string targetUrl, HeartbeatData data, CancellationToken? cancellationToken = null, int interval = 60000)
+        public Task StartHeartbeatsAsync(string targetUrl, HeartbeatData data, int interval, CancellationToken? cancellationToken = null)
             => StartHeartbeatsAsync(targetUrl, data, cancellationToken, TimeSpan.FromMilliseconds(interval));
 
         /// <summary>
