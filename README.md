@@ -17,7 +17,7 @@ Simply create a new monitor and from the Monitor Type Dropdown select the "Push"
 ![grafik](https://user-images.githubusercontent.com/65790187/216563486-81df61fe-11db-446e-95de-ef33c9f8fe5d.png)
 
 
-If you change the Hearbeat interval be sure to passed the correct interval to the lib (see [parameters](#method-parameters))
+If you change the Hearbeat interval be sure to pass the correct interval to the library (see [parameters](#method-parameters))
 
 ### In Code
 
@@ -58,8 +58,7 @@ see previous section
 ``heartbeatData``:
 see previous section
 
-note:
-When using continuous Heartbeats you can modify the properties on the object you passed in order to send new data with the next outgoing Heartbeat.
+- Note: When using continuous Heartbeats you can modify the properties on the object you passed in order to send new data with the next outgoing Heartbeat.
 
 When starting continuous Heartbeats the following parameters are optional:
 
